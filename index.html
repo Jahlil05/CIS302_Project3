@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--
+            #Title of what it is
+            Author: Jahlil Mendoza
+            Date:  # November 7th, 2023
+            Filename: project3.html
+        -->
+        <meta charset="utf-8" >
+        <title>Movie Hangman</title>
+        <link href="project3.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <main>
+          <heading>CIS 302 Project 3</heading>
+            <h1>Jahlil Mendoza</h1>
+            <h5><a href="https://mitchum.blog/how-to-build-hangman-with-javascript/">Back To Blog</a></h5>
+            <div id="gallows">
+              <img src="hangman0.png" id="hangmanImage">
+            </div>
+            <div id="word"></div>
+            <br>
+            <div id="controls">
+              <input type="text" id="guessBox">
+              <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+              <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+              <br>
+              <br>
+              <form action="https://mitchum.blog/sorry-for-offending-subscribe/">
+                <button class="button">How Dare You Make Light Of Capital Punishment</button>
+              </form>
+            </div>
+            <br>
+            <div id="guesses"></div>
+          </main>   
+         <script src="project3.js"></script> 
+    </body>
+</html>
